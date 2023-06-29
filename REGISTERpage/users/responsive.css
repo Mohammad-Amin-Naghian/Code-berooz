@@ -1,0 +1,209 @@
+@media screen and (max-width:767px) {
+  body {
+background-color: #fff;  }
+.LoginForm{
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-right: 0; */
+
+}
+  .right{
+    margin: 0;
+    margin-right: 0;
+    width: 100%;
+   
+  }
+  .LOGO{
+    margin: 0 auto;
+  }
+  .register__title{
+    margin: 0 auto;
+    font-size: 14px;
+  }
+  .register__form{
+    padding:0;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+
+  }
+  .RegisterForm{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+  }
+  .register__title{
+  
+  }
+  .register__form--input{
+    max-width: 300px;
+  }
+  .register__form--input input{
+    max-width: 270px;
+
+  }
+  .btn1{
+    width: 280px;
+  }
+  .btn2{
+    width: 280px;
+  }
+  .question{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 0;
+
+  }
+}
+
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+  body {
+    background-color: #fff;  }
+    .LoginForm{
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin-right: 0; */
+    
+    }
+      .right{
+        margin: 0;
+        margin-right: 0;
+        width: 100%;
+       
+      }
+      .LOGO{
+        margin: 0 auto;
+      }
+      .register__title{
+        margin: 0 auto;
+        font-size: 14px;
+      }
+      .register__form{
+        padding:0;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    
+      }
+      .RegisterForm{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    
+      }
+     
+      .register__form--input{
+        max-width: 300px;
+      }
+      .register__form--input input{
+        max-width: 270px;
+    
+      }
+      .btn1{
+        width: 280px;
+      }
+      .btn2{
+        width: 280px;
+      }
+      .question{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+
+      }
+
+}
+
+@media screen and (min-width:767px) and (max-width:1010px) {
+  body {
+    background-color: #fff;  }
+    .LoginForm{
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin-right: 0; */
+    
+    }
+      .right{
+        margin: 0;
+        margin-right: 0;
+        width: 100%;
+       
+      }
+      .left{
+        display: none !important;
+      }
+      .LOGO{
+        margin: 0 auto;
+      }
+      .register__title{
+        margin: 0 auto;
+        font-size: 14px;
+      }
+      .register__form{
+        padding:0;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+    
+      }
+      .RegisterForm{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    
+      }
+      .register__title{
+      
+      }
+      .register__form--input{
+        max-width: 300px;
+      }
+      .register__form--input input{
+        max-width: 270px;
+    
+      }
+      .btn1{
+        width: 280px;
+      }
+      .btn2{
+        width: 280px;
+      }
+      .question{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 0;
+
+      }
+}
+@media screen and (min-width:1024px) and (max-width:1250px) {
+  body {
+    background-color: #fff;  }
+    .LoginForm{
+      margin: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin-right: 0; */
+    
+    }
+    .right{
+      margin: 0;
+      margin-right: 0;
+     
+    }
+    .register__form{
+      margin: 0;
+      padding-right: 0;
+    }
+}
