@@ -1,0 +1,358 @@
+@font-face {
+    font-family: "IransanX";
+    src: url('./assets/font/IRANSansXBlack.ttf');
+    src: url('./assets/font/IRANSansXBold.ttf');
+    src: url('./assets/font/IRANSansXDemiBold.ttf');
+    src: url('./assets/font/IRANSansXExtraBold.ttf');
+    src: url('./assets/font/IRANSansXLight.ttf');
+    src: url('./assets/font/IRANSansXMedium.ttf');
+    src: url('./assets/font/IRANSansXRegular.ttf');
+    src: url('./assets/font/IRANSansXThin.ttf');
+    src: url('./assets/font/IRANSansXUltraLight.ttf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+     
+}
+
+body {
+    background-color: #e8ecf8;
+    direction: rtl;
+    font-family: IransanX;
+}
+
+.wrapper {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding-top: 26px;
+    margin: auto;
+}
+
+.head-sec {
+    padding: 8px 36px;
+}
+
+.head-sec h3 {
+    margin-top: 28px;
+}
+
+.body-sec h4 {
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 27px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 56%;
+    margin: auto;
+}
+
+.field input {
+    width: 100%;
+    height: 35px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    border: 1px solid #acaaaa;
+}
+
+.field input[type="text"] {
+    padding-right: 37px;
+    width: 88%;
+}
+
+.field input[type="password"] {
+    padding-right: 37px;
+    width: 88%;
+}
+.field label {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.field input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    padding-right: 10px;
+    font-family: IransanX;
+}
+
+
+.wrapper .right {
+    width: 567px;
+    background-color: white;
+}
+
+.field-check {
+    display: grid;
+    grid-template-columns: 48% auto;
+    justify-content: space-around;
+    margin-top: 4%;
+    margin-right: 21%;
+    width: 60%;
+}
+
+.recovery-password a {
+    text-decoration: none;
+}
+
+.field input[type="submit"] {
+    margin-top: 26px;
+    background-color: #323EE2;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    min-height: 43px;
+    font-family: IransanX;
+}
+
+.field input[type="submit"]:hover {
+    margin-top: 26px;
+    background-color: #1724da;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: all 400ms ease-in-out;
+}
+
+.field input[type="button"] {
+    font-weight: bold;
+    background-color: white;
+    min-height: 43px;
+    cursor: pointer;
+    border: 1px solid #cec8c8;
+    background-image: url('./assets/image/logo-google.png');
+    background-repeat: no-repeat;
+    background-position: 67%;
+    font-family: IransanX;
+}
+
+.field input + .label-username::before {
+    content: " ";
+    background-image: url(./assets/image/user.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+    margin-top: 39px;
+}
+
+.field input + .password-label::before {
+    content: " ";
+    background-image: url(./assets/image/lock1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    padding-right: 5px;
+    margin-top: 39px;
+}
+
+.footer-sec {
+    margin: 20px;
+}
+
+.footer-sec span {
+    display: block;
+    text-align: center;
+    
+}
+
+.text-secondary {
+    color: #8f8e8e;
+    padding: 11px;
+    height: 170px;
+    line-height: 218px;
+}
+
+.text-dark {
+    color: black;
+    text-decoration: none;
+}
+.wrapper .left {
+    width: 762px;
+    height: 736px;
+    background: linear-gradient(217.49deg, #2A5DC6 0.97%, rgba(9, 21, 45, 0.88) 98.89%);
+}
+
+.wrapper .left .panel-left {
+    display: block;
+    text-align: center;
+    padding-top: 74px;
+}
+
+.shoar {
+    color: white;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 190px;
+    line-height: 35px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.bullets {
+    display: flex;
+    padding: 10px 322px;
+    justify-content: space-around;
+}
+
+.bullet-end {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bullet-center {
+    width: 8px;
+    height: 8px;
+    background-color: darkgrey;
+    border-radius: 50%;
+}
+
+.bullet-start {
+    width: 8px;
+    height: 8px;
+    background-color: darkgrey;
+    border-radius: 50%;
+}
+
+
+.oval-left-1 {
+    position: absolute;
+    top: 47px;
+    left: 142px;
+    transform: rotate(224deg);
+    opacity: 60%;
+    width: 79.49px;
+    height: 114.15px;
+    background-color: #8E62EC;
+    border-radius: 50%;
+}
+.oval-right-1 {
+    position: absolute;
+    top: 37px;
+    left: 169px;
+    transform: rotate(89deg);
+    opacity: 60%;
+    width: 79.49px;
+    height: 114.15px;
+    background-color: #E162EC;
+    border-radius: 50%;
+}
+
+.oval-left-2 {
+    position: absolute;
+    right: 50%;
+    transform: rotate(288deg);
+    opacity: 60%;
+    width: 83.49px;
+    top: 34em;
+    height: 114.15px;
+    background-color: #E9EC62;
+    border-radius: 50%;
+}
+.oval-right-2 {
+    position: absolute;
+    right: 49%;
+    transform: rotate(340deg);
+    opacity: 60%;
+    width: 83.49px;
+    top: 33em;
+    margin-top: 3px;
+    height: 114.15px;
+    background-color: #E9A021;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 576px) {
+    .wrapper .left {
+        display: none;
+    }
+    
+     .check-it label {
+        font-size: 13px !important;
+    }
+
+    .field input[type="button"] {
+        font-weight: bold;
+        background-color: white;
+        min-height: 43px;
+        border: 1px solid #cec8c8;
+        background-image: url('./assets/image/logo-google.png');
+        background-repeat: no-repeat;
+        background-position: 78%;
+    }
+
+    .field {
+        width: 74%;
+    }
+
+    .field-check {
+        width: 76%;
+        margin-right: 14%;
+    }
+}
+
+@media (max-width: 912px) {
+    .wrapper .left {
+        width: 51rem;
+        overflow: hidden;
+    }
+
+    .oval-left-1 {
+        position: absolute;
+        left: 78px;
+    }
+
+    .oval-right-1 {
+        position: absolute;
+        left: 104px;
+    }
+
+    .oval-left-2 {
+        position: absolute;
+        top: 40rem;
+    }
+
+    .oval-right-2 {
+        position: absolute;
+        top: 39rem;
+        margin-right: -4px;
+    }
+
+    .bullets {
+        width: 9%;
+        margin-right: -121px;
+        margin-top: 15px;
+    }
+
+    .field {
+        width: 77%;
+    }
+
+    .check-it  {
+        width: 9rem;
+        margin-right: -49px;
+        font-size: 14px;
+    }
+
+    .recovery-password a {
+        position: absolute;
+        margin-right: -52px;
+        font-size: 14px;
+    }
+}
