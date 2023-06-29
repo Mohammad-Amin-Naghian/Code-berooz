@@ -214,6 +214,7 @@ input::placeholder {
     height: 8px;
     background-color: white;
     border-radius: 50%;
+    cursor:pointer;
 }
 
 .bullet-center {
@@ -221,6 +222,7 @@ input::placeholder {
     height: 8px;
     background-color: darkgrey;
     border-radius: 50%;
+    cursor:pointer;
 }
 
 .bullet-start {
@@ -228,6 +230,7 @@ input::placeholder {
     height: 8px;
     background-color: darkgrey;
     border-radius: 50%;
+    cursor:pointer;
 }
 
 
