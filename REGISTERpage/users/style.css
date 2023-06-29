@@ -1,0 +1,142 @@
+@import url(../../font/IRANSans/css/fontiran.css);
+@import url(../../style/normalize.css);
+
+
+:root {
+  --body-font: "iransansx";
+  --primary-color: #1C1C1C;
+  --paragraph-color: #414040;
+}
+body {
+  font-family:var(--body-font) ;
+  font-size: 62.5%;
+  background-color:#e8ecf8;
+
+}
+
+.right{
+  background-color: #fff;
+  margin-left: -10px;
+}
+
+.register__title{
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+
+
+.register__form{
+  display: flex; 
+   flex-direction: column;
+  justify-content: center;
+  padding-right: 120px;
+  margin-top: 60px;
+
+}
+
+label{
+  color: var(--paragraph-color);
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+}
+.register__form--input{
+  margin-top: 15px;
+  width: 410px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 12px;
+  border: 1px solid #DBDBDB;
+}
+
+.register__form--input span i{
+  font-size: 20px;
+  margin-top: 7px;
+  color: #7E7A7A;
+}
+.locki{
+  margin-right: 7px;
+  font-size: 15px;
+
+}
+.fa-eye{
+  margin-left: 5px;
+
+}
+.register__form--input input{
+  width: 380px;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+
+
+}
+.register__form--input input:focus{
+  outline: none;
+}
+.register__form--input input::placeholder{
+  color: #C9C4C4;
+text-align: right;
+font-size: 14px;
+font-weight: 600;
+}
+.registerLOW{
+  color: #423D3D;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+.registerLOW a{
+  text-decoration: none;
+}
+button{
+  width: 380px;
+  border-radius: 12px;
+padding: 15px;
+border: none;
+}
+.btn1{
+  background-color: #323EE2;
+  color: #fff;
+  font-size: 14px;
+font-weight: 600;
+}
+.btn2{
+  border: 1px solid #D0D0D0;
+color: #1C1C1C;
+background-color: #fff;
+width: 380px;
+border-radius: 12px;
+padding: 12px;
+text-align: center;
+text-decoration: none;
+font-size: 14px;
+font-weight: 600;
+}
+.btn2 img{
+  margin-left: 5px;
+
+}
+.question{
+  display: flex;
+  justify-content: right;
+  text-align: center;
+  align-items: center;
+  margin-top: 55px;
+  color: #A0A1A6;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 120px;
+
+}
+.question a{
+  text-decoration: none;
+
+}
+
